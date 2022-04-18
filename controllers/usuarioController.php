@@ -100,10 +100,10 @@ class usuarioController extends ControllerBase
 					//Server settings
 					$mail->SMTPDebug = false; //SMTP::DEBUG_SERVER;                      //Enable verbose debug output
 					$mail->isSMTP();                                            //Send using SMTP
-					$mail->Host = 'smtp.gmail.com';                     //Set the SMTP server to send through
+					$mail->Host = '';                     //Set the SMTP server to send through
 					$mail->SMTPAuth = true;                                   //Enable SMTP authentication
-					$mail->Username = 'sseguridad666@gmail.com';                     //SMTP username
-					$mail->Password = 'Ucu2021*';                               //SMTP password
+					$mail->Username = '';                     //SMTP username
+					$mail->Password = '*';                               //SMTP password
 					$mail->SMTPSecure = PHPMailer::ENCRYPTION_SMTPS;            //Enable implicit TLS encryption
 					$mail->Port = 465;                                    //TCP port to connect to; use 587 if you have set `SMTPSecure = PHPMailer::ENCRYPTION_STARTTLS`
 

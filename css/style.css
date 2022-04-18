@@ -1,0 +1,61 @@
+body{
+    background:#003da5;
+}
+
+.votar-panel .panel-default{
+    padding: 5%;
+    margin-top: -5%;
+}
+
+.votar-panel .panel-body{
+    padding: 5%;
+    margin-bottom: -5%;
+    background: #fff;
+    border-radius: 5px;
+    -webkit-box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.forget-pwd > a{
+    color: #003da5;
+    font-weight: 500;
+}
+.forget-password .panel-default{
+    padding: 10%;
+    margin-top: -22%;
+}
+.forget-password .panel-body{
+    padding: 15%;
+    margin-bottom: -50%;
+    margin-top: 15%;
+    border-radius: 5px;
+    background: #fff;
+    -webkit-box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+img{
+    width:98%;
+}
+
+.btnForget{
+    background: #0059ff;
+    border:none;
+}
+.forget-password .dropdown{
+    width: 100%;
+    border: 1px solid #ced4da;
+    border-radius: .25rem;
+}
+.forget-password .dropdown button{
+    width: 100%;
+}
+.forget-password .dropdown ul{
+    width: 100%;
+}
+
+.navbar-default .navbar-brand {
+    color: #003da5;
+}
+
+.text-center{
+    margin-top: -3%;
+}
